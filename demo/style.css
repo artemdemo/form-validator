@@ -37,7 +37,7 @@ textarea {
 	margin-bottom: 5px;
 }
 
-.fv-incorrect-email {
+.fv-incorrect-email, .fv-incorrect-input {
 	color: red;
 	padding: 4px 8px;
 	font-size: 13px;

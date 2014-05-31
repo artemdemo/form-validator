@@ -32,9 +32,9 @@
 
 ### 3. Initialization
 ```js
-	$(document).ready(function(){
-		$('#test-form').formvalidator();
-	});
+$(document).ready(function(){
+	$('#test-form').formvalidator();
+});
 ```
 
 ## License
