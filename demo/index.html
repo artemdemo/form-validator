@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title>Demo Form Validator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<form id="test-form">
+	<h3>Test Form</h3>
+	<div class="input-wrap"><input type="text" name="input-fname" data-mandatory="true" value="" size="40" class="" aria-invalid="false" placeholder="First name"></div>
+	<div class="input-wrap"><input type="text" name="input-lname" value="" size="40" class="" aria-invalid="false" placeholder="Last name"></div>
+	<div class="input-wrap"><input type="tel" name="input-tel" value="" size="40" class="" aria-invalid="false" placeholder="Phone number"></div>
+	<div class="input-wrap"><input type="email" name="input-femail" data-mandatory="true" value="" size="40" class="" aria-invalid="false" placeholder="First Email"></div>
+	<div class="input-wrap"><input type="email" name="input-semail" value="" size="40" class="" aria-invalid="false" placeholder="Second Email"></div>
+	<textarea name="message" cols="32" rows="5" class=""></textarea>
+	<input type="submit" value="Send" class="button">
+</form>
+
+<form>
+	<h3>Second Form</h3>
+	<div class="input-wrap"><input type="email" name="input-email" value="" size="40" class="" aria-invalid="false" placeholder="Email"></div>
+	<input type="submit" value="Send" class="button">
+</form>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="../jquery.formvalidator.js"></script>
+
+<script>
+	$(document).ready(function(){
+		$('#test-form').formvalidator({
+			all_mandatory: true,
+		});
+	});
+</script>
+
+</body>
+</html>
+
