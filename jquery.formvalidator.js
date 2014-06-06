@@ -3,10 +3,8 @@
  * (c) 2013 Artem Demo <artemdemo@gmail.com>
  * MIT Licensed.
  *
- * http://github.com/artemdemo/...
+ * https://github.com/artemdemo/form-validator
  */
-
-// http://stackoverflow.com/questions/10649869/jquery-selector-inputtype-text
 
 (function($) {
 
